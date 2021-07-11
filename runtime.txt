@@ -1,0 +1,29 @@
+pypy3.6-7.3.2
+
+To deploy to AWS
+eb init -p python-3.8 nwsl
+eb init
+eb create django-env
+
+
+conda activate base
+
+Needed to update sqlite3 to version SQLite 3.8.3 or higher
+
+Deploy to AWS Lightsail 
+https://aws.amazon.com/getting-started/hands-on/deploy-python-application/
+
+
+Deploy using Github
+https://aws.amazon.com/blogs/compute/using-aws-codedeploy-and-aws-codepipeline-to-deploy-appltions-to-amazon-lightsail/
+
+1) Create IAM role https://console.aws.amazon.com/iam/
+
+
+Connect via ssh (to test key are working)
+ssh -i /Users/charles/.ssh/LightsailDefaultKey-eu-west-2.pem CharlesIAM@18.132.196.92
+
+ssh -i /Users/charles/.ssh/LightsailDefaultKey-eu-west-2.pem 710251022788@18.132.196.92
+
+
+710251022788

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAE,GAAG,AAAC,CAAE,SAAS,CAAE,KAAK,CAAE,KAAK,CAAC,IAAI,CAAI",
+    "sources": [
+        "../../../../../assets/scss/bootstrap_custom.scss"
+    ],
+    "names": [],
+    "file": "bootstrap_custom.min.css"
+}
